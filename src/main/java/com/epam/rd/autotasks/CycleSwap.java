@@ -4,12 +4,13 @@ public class CycleSwap {
     
     /**
      * Shift all elements in the given array to the right in a cycle manner by shift positions.
-     * Shift value is guaranteed to be non-negative and not bigger than the array length.
+     * Shift value is guaranteed to be non-negative. If shift is larger than the array length,
+     * it will be normalized using modulo operation.
      * 
      * For example: [1, 3, 2, 7, 4] with a shift of 3 becomes [2, 7, 4, 1, 3]
      * 
      * @param array the array to cycle swap
-     * @param shift the number of positions to shift right
+     * @param shift the number of positions to shift right (non-negative)
      */
     public static void cycleSwap(int[] array, int shift) {
         if (array == null || array.length == 0 || shift == 0) {
