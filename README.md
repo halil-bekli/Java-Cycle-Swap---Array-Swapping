@@ -134,7 +134,7 @@ The cycle swap algorithm works as follows:
 
 ## 📄 License
 
-This project is part of EPAM Road autotasks training exercises.
+This project is part of EPAM RD autotasks training exercises.
 
 ---
 
